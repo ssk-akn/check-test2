@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'jsMath-cmti10';
+    font-style: normal;
+    font-weight: normal;
+    src: local('jsMath-cmti10'), url('https://themes.googleusercontent.com/font?kit=mrXZJMtAIRbOuKCWEl5K0M3vxjSpqwl4N_r2c0FTwxc') format('woff');
+  }
+
+.header__inner {
+    padding: 10px 20px;
+    border: 1px solid #F4F4F4;
+    background-color: #fff;
+}
+
+.header__logo {
+    font-weight: 500px;
+    font-size: 30px;
+    font-family: 'jsMath-cmti10';
+    font-style: italic;
+    color: #F5C800;
+    text-decoration: none;
+}
+
+htnl, body, main {
+    height: 100%;
+    background-color: #F8F8F8;
+}
