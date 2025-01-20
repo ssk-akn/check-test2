@@ -15,4 +15,14 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/products', [ProductController::class, 'index']);
-Route::get('/products/update', [ProductController::class, 'update']);
+Route::get('/products/search', [ProductController::class, 'search']);
+
+Route::get('/products/register', [ProductController::class, 'register']);
+Route::post('/products/register', [ProductController::class, 'store']);
+
+
+Route::get('/products/{id}', [ProductController::class, 'edit']);
+Route::delete('/products/{id}/delete', [ProductController::class, 'destroy']);
+Route::patch('/products/{id}/update', [ProductController::class, 'update']);
+
+
