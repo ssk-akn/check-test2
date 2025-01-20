@@ -14,6 +14,8 @@
 ・PHP 7.4.9
 ・Laravel 8.0
 ・MySQL 8.0.26
+## ER図
+![ER図](/images/ER図.png)
 ## URL
 ・開発環境：http://localhost/
 ・phpMyAdmin：http://localhost:8080/
